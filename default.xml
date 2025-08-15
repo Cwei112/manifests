@@ -1,0 +1,13 @@
+<manifest>
+    <!-- 定义远程仓库的基础地址 -->
+    <remote name="origin" url="git@github.com:Cwei112/" />
+    
+    <!-- 对应你的 test 仓库 -->
+    <project name="test" path="test" remote="origin" revision="main"/>
+    
+    <!-- 对应你的 test2 仓库 -->
+    <project name="test2" path="test2" remote="origin" revision="main"/>
+    
+    <!-- 对应你的 test3 仓库 -->
+    <project name="test3" path="test3" remote="origin" revision="main"/>
+</manifest>

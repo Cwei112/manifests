@@ -1,5 +1,5 @@
 <manifest>
-    <remote fetch="ssh://git@github.com:cwei112/" name="ning"/>
+    <remote fetch="git@github.com:cwei112" name="ning"/>
     <project groups="one" name="test" path="test" remote="ning" revision="dev"/>
     <project groups="two" name="test2" path="test2" remote="ning" revision="main"/>
     <project name="test3" path="test3" remote="ning" revision="mani"/>
